@@ -1,6 +1,6 @@
-This class wroted for Turkish string upper-lower conversation problems. 
+﻿This class wroted for Turkish string upper-lower conversation problems. 
 
-�t contains 4 functions:
+İt contains 4 functions:
 
 1-) upperCase          -> it will change all chars to upper case in the string no matter what they are upper or lower case.
 2-) lowerCase          -> it will change all chars to lowercase in the string no matter what they are upper or lower case.
