@@ -66,19 +66,19 @@ class strChange{
 
 $strChange = new strChange();
 
-$upper  = $strChange ->upperCase("merhaba istanbul güzel kent şiğşiçöüğüşiç");
+$upper  = $strChange ->upperCase("Lorem Ipsum pasajlarının birçok çeşitlemesi vardır. Ancak bunların büyük bir çoğunluğu mizah katılarak veya rastgele sözcükler eklenerek değiştirilmişlerdir.");
 
 echo $upper."<br>";
 
-$lower = $strChange ->lowerCase("HELLO EVERYBODY");
+$lower = $strChange ->lowerCase("Lorem Ipsum pasajlarının birçok çeşitlemesi vardır. Ancak bunların büyük bir çoğunluğu mizah katılarak veya rastgele sözcükler eklenerek değiştirilmişlerdir.");
 
 echo $lower."<br>";
 
-$upperFirst = $strChange ->upperFirst("HELLOW ");
+$upperFirst = $strChange ->upperFirst("Lorem Ipsum pasajlarının birçok çeşitlemesi vardır. Ancak bunların büyük bir çoğunluğu mizah katılarak veya rastgele sözcükler eklenerek değiştirilmişlerdir. ");
 
 echo $upperFirst."<br>";
 
-$upperAllWordsFirst = $strChange ->upperAllWordsFirst("asfnsauıfha ıoahsdıabhf oıahsd ajkhdaoıs hdaskj dhkaj");
+$upperAllWordsFirst = $strChange ->upperAllWordsFirst("Lorem Ipsum pasajlarının birçok çeşitlemesi vardır. Ancak bunların büyük bir çoğunluğu mizah katılarak veya rastgele sözcükler eklenerek değiştirilmişlerdir.");
 
 echo $upperAllWordsFirst."<br>";
 
