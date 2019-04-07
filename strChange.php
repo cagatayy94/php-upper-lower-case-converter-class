@@ -4,7 +4,14 @@
 
 class strChange{
 
-
+    /*
+     * This function changes all string chars to upper case.
+     * str_raplace function changes them also but it changes only american way
+     * For example: char "i" changes to "I" but in Turkish it is not correct it is wrong conversation
+     *
+     * For all of these I wrote that upperCase function.
+     *
+     * */
     public function upperCase($value){
         $alter         	                =	array("ç", "ğ", "ı", "i", "ö", "ş", "ü");
         $altered		                =	array("Ç", "Ğ", "I", "İ", "Ö", "Ş", "Ü");
@@ -12,6 +19,14 @@ class strChange{
         $result			                =	strtoupper($organize);
         return $result;
     }
+    /*
+     * This function changes all string chars to lower case.
+     * str_raplace function changes them also but it changes only american way
+     * For example: char "I" changes to "i" but in Turkish it is not correct it is wrong conversation
+     *
+     * For all of these I wrote that lowerCase Function.
+     *
+     * */
     public function lowerCase($value){
         $alter	                        =	array("Ç", "Ğ", "I", "İ", "Ö", "Ş", "Ü");
         $altered		                =	array("ç", "ğ", "ı", "i", "ö", "ş", "ü");
@@ -19,6 +34,14 @@ class strChange{
         $result			                =	strtolower($organize);
         return $result;
     }
+    /*
+    * This function changes all string value first char to upper case.
+    * str_raplace function changes them also but it changes only american way
+    * For example: char "i" changes to "I" but in Turkish it is not correct it is wrong conversation
+    *
+    * For all of these I wrote that upperFirst Function.
+    *
+    * */
     public function upperFirst($value){
         $length					       	=	strlen($value);
         $findFirstLetter				=	mb_substr($value, 0, 1, "UTF-8");
@@ -32,6 +55,14 @@ class strChange{
         $result             			=	$changeFirstLetter . $changeAnothers;
         return $result;
     }
+    /*
+   * This function changes all words first chars to upper case in the string.
+   * str_raplace function changes them also but it changes only american way
+   * For example: char "i" changes to "I" but in Turkish it is not correct it is wrong conversation
+   *
+   * For all of these I wrote that upperAllWordsFirst function.
+   *
+   * */
     public function upperAllWordsFirst($value){
         $explode						=	explode(" ", $value);
         $wordNumber 					=	count($explode);
@@ -63,6 +94,9 @@ class strChange{
     }
 
 }
+
+
+//There are some examples 
 
 $strChange = new strChange();
 
