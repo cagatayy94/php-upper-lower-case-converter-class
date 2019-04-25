@@ -1,5 +1,5 @@
 <?php
-
+namespace cagatayy94;
 
 
 class strChange{
